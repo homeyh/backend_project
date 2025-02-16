@@ -16,7 +16,6 @@
   "keywords": ["nodejs", "express", "graphql", "mongodb", "jwt", "backend"],
   "author": "",
   "license": "MIT",
-  "type": "module",
   "bugs": {
     "url": "https://github.com/homeyh/backend_project/issues"
   },
@@ -27,7 +26,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "express-graphql": "^0.12.0",
-    "graphql": "^16.10.0",
+    "graphql": "^15.3.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.10.1"
   },
