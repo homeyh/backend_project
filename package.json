@@ -13,7 +13,14 @@
     "type": "git",
     "url": "https://github.com/homeyh/backend_project.git"
   },
-  "keywords": ["nodejs", "express", "graphql", "mongodb", "jwt", "backend"],
+  "keywords": [
+    "nodejs",
+    "express",
+    "graphql",
+    "mongodb",
+    "jwt",
+    "backend"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
@@ -21,6 +28,7 @@
   },
   "homepage": "https://github.com/homeyh/backend_project#readme",
   "dependencies": {
+    "apollo-server-express": "^3.13.0",
     "bcryptjs": "^3.0.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
@@ -31,8 +39,8 @@
     "mongoose": "^8.10.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9",
     "eslint": "^8.52.0",
+    "nodemon": "^3.1.9",
     "prettier": "^3.2.5"
   }
 }
