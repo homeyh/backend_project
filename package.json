@@ -1,0 +1,39 @@
+{
+  "name": "backend_project",
+  "version": "1.0.0",
+  "description": "Backend for Teacher Resources platform with Node.js, Express.js, GraphQL, MongoDB, and JWT Authentication.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/homeyh/backend_project.git"
+  },
+  "keywords": ["nodejs", "express", "graphql", "mongodb", "jwt", "backend"],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/homeyh/backend_project/issues"
+  },
+  "homepage": "https://github.com/homeyh/backend_project#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.10.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "eslint": "^8.52.0",
+    "prettier": "^3.2.5"
+  }
+}
